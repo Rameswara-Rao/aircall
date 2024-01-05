@@ -1,0 +1,29 @@
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+}
+.header_spacing {
+  padding: 15px 18px 5px;
+  background-color: #1677ff;
+}
+
+.hr {
+  border: 1px solid rgb(229, 229, 229);
+}
+
+.input_mod {
+  border-radius: 4px !important;
+  border-color: rgb(234, 234, 234) !important;
+}
+.segmented_styling {
+  margin-top: -5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.seg_bg {
+  background-color: white;
+  padding-top: 15px;
+}

@@ -1,0 +1,23 @@
+.app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  color: azure;
+}
+
+.container {
+  position: relative;
+  width: 376px;
+  height: 686px;
+  z-index: 100;
+  background: white;
+  color: azure;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+  overflow-y: scroll;
+}

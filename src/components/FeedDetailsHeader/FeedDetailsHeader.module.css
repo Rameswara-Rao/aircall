@@ -1,0 +1,19 @@
+.header_spacing {
+  padding: 0px 10px;
+  padding-top: 5px;
+}
+
+.hr {
+  border: 1px solid rgb(229, 229, 229);
+}
+
+.headerNameStyle {
+  color: rgb(65, 65, 65);
+  font-size: 16px;
+  margin-left: -8px;
+}
+
+.back_btn {
+  margin-top: auto;
+  margin-bottom: auto;
+}
