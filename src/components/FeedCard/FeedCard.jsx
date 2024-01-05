@@ -15,15 +15,10 @@ const FeedCard = ({ actvData }) => {
   const color = ["#fde3ce", "#eae3ff", "#1677ff2a"];
 
   const archiveCall = async (dataBool) => {
-    const url =
-      "https://corsproxy.io/?" +
-      encodeURIComponent(
-        `https://cerulean-marlin-wig.cyclic.app/activities/${actvData?.id}`
-      );
 
     setLoaderArchive(true);
     await axios
-      .patch(url, {
+      .patch(`${BASE_URL}/activities/${actvData?.id}`, {
         is_archived: dataBool,
       })
       .then()
