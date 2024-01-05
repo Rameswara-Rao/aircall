@@ -1,8 +1,7 @@
-# React + Vite
+# AirCall
+This is a ReactJS application that serves as an Activity Feed for calls, allowing users to view call details, archive/unarchive calls, and perform bulk actions on calls.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To Start the Application - Command:
+```npm run dev``` 
+# Deployment
+The live version of the app is deployed on https://stunning-medovik-e91e09.netlify.app/feed
